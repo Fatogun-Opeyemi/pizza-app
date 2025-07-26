@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react';
 import './index.css'
+import focaccia from '../src/assets/focaccia.jpg'
 
 const App = () => {
   const pizzaData = [
@@ -115,7 +116,7 @@ const Menu = () => {
     <Pizza
       name='Focaccia'
       ingredients='Bread with italian olive oil and rosemary'
-      photoName='src/assets/focaccia.jpg'
+      photoName={focaccia}
       price={6}
     />
 
