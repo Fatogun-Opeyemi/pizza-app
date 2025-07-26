@@ -2,6 +2,11 @@ import React from 'react'
 import { Fragment } from 'react';
 import './index.css'
 import focaccia from '../src/assets/focaccia.jpg'
+import funghi from '../src/assets/funghi.jpg'
+import margherita from '../src/assets/margherita.jpg'
+import prosciutto from '../src/assets/prosciutto.jpg'
+import salamino from '../src/assets/salamino.jpg'
+import spinachi from '../src/assets/spinachi.jpg'
 
 const App = () => {
   const pizzaData = [
@@ -83,33 +88,33 @@ const Menu = () => {
     <Pizza
       name='Pizza Salamino'
       ingredients='Tomato, mozarella, and pepperoni'
-      photoName='src/assets/spinaci.jpg'
+      photoName={funghi}
       price={10}
     />
 
     <Pizza
       name='Focaccia'
       ingredients='Bread with italian olive oil and rosemary'
-      photoName='src/assets/focaccia.jpg'
+      photoName={margherita}
       price={6}
     />
     <Pizza
       name='Pizza Salamino'
       ingredients='Tomato, mozarella, and pepperoni'
-      photoName='src/assets/spinaci.jpg'
+      photoName={prosciutto}
       price={10}
     />
 
     <Pizza
       name='Focaccia'
       ingredients='Bread with italian olive oil and rosemary'
-      photoName='src/assets/focaccia.jpg'
+      photoName={salamino}
       price={6}
     />
     <Pizza
       name='Pizza Salamino'
       ingredients='Tomato, mozarella, and pepperoni'
-      photoName='src/assets/spinaci.jpg'
+      photoName={spinachi}
       price={10}
     />
 
