@@ -6,7 +6,7 @@ import funghi from '../src/assets/funghi.jpg'
 import margherita from '../src/assets/margherita.jpg'
 import prosciutto from '../src/assets/prosciutto.jpg'
 import salamino from '../src/assets/salamino.jpg'
-import spinachi from '../src/assets/spinachi.jpg'
+import spinaci from '../src/assets/spinaci.jpg'
 
 const App = () => {
   const pizzaData = [
@@ -114,7 +114,7 @@ const Menu = () => {
     <Pizza
       name='Pizza Salamino'
       ingredients='Tomato, mozarella, and pepperoni'
-      photoName={spinachi}
+      photoName={spinaci}
       price={10}
     />
 
